@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VortiX Consultora | Sitio en construcción</title>
+  <meta name="description" content="VortiX Consultora, estrategia en acción. Nuestro sitio web está en construcción. Escribinos por WhatsApp.">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="logo.png" type="image/png">
+  <style>
+    :root {
+      --dark: #1b2523;
+      --teal: #4a9e96;
+      --teal-dark: #3a7f78;
+      --bg: #f4f7f6;
+      --wa: #25d366;
+      --wa-dark: #1ebe5b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .logo {
+      width: min(420px, 80vw);
+      height: auto;
+      margin-bottom: 36px;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--teal);
+      color: #fff;
+      font-size: .8rem;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+    p {
+      font-size: clamp(1rem, 2.5vw, 1.15rem);
+      color: #4d5b58;
+      max-width: 520px;
+      line-height: 1.6;
+      margin-bottom: 32px;
+    }
+    .wa-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--wa);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      padding: 16px 32px;
+      border-radius: 999px;
+      transition: background .2s, transform .2s;
+    }
+    .wa-btn:hover, .wa-btn:focus { background: var(--wa-dark); transform: translateY(-2px); }
+    .wa-btn svg { width: 26px; height: 26px; fill: #fff; flex-shrink: 0; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: .85rem;
+      color: #6b7a77;
+      border-top: 1px solid #dfe6e4;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="logo.png" alt="VortiX Consultora - Estrategia en acción">
+    <span class="badge">En construcción</span>
+    <h1>Estamos preparando nuestro sitio</h1>
+    <p>Muy pronto vas a encontrar acá toda la información de VortiX Consultora. Mientras tanto, escribinos por WhatsApp y te respondemos a la brevedad.</p>
+
+    <a class="wa-btn" href="https://wa.me/5493513871397?text=Hola%20VortiX%20Consultora%2C%20quisiera%20hacer%20una%20consulta." target="_blank" rel="noopener">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 3C9.4 3 4 8.4 4 15.04c0 2.13.56 4.2 1.62 6.03L4 29l8.1-1.6a12 12 0 0 0 3.94.66C22.68 28.06 28 22.66 28 16.02 28 9.4 22.68 3 16.04 3zm0 22.04c-1.2 0-2.38-.32-3.4-.93l-.25-.15-4.8.95.98-4.67-.16-.26a9.96 9.96 0 0 1-1.54-5.34c0-5.5 4.48-9.98 10-9.98 5.5 0 9.96 4.48 9.96 9.98 0 5.52-4.46 10.4-9.96 10.4zm5.5-7.48c-.3-.15-1.78-.88-2.06-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.96 1.18-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.67-2.08-.18-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.64-.93-2.25-.25-.6-.5-.5-.68-.5h-.58c-.2 0-.53.08-.8.38-.28.3-1.06 1.04-1.06 2.53s1.08 2.94 1.24 3.14c.15.2 2.13 3.25 5.16 4.56.72.3 1.28.5 1.72.64.72.23 1.38.2 1.9.12.58-.08 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.08-.13-.28-.2-.58-.35z"/></svg>
+      Escribinos por WhatsApp
+    </a>
+  </main>
+
+  <footer>&copy; <span id="y">2026</span> VortiX Consultora &middot; Estrategia en acción</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
